@@ -1,0 +1,13 @@
+name = "julia_package_poc"
+uuid = "1843fc81-c24b-439a-9eef-fd65c0b1864f"
+authors = ["Rodrigo de Souza"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
